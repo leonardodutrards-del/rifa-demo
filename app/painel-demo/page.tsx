@@ -109,7 +109,7 @@ export default function CampaignManager() {
 
   return <main className="dashboard-page">
     <aside className="dash-side">
-      <a className="logo" href="../"><span className="logo-icon">CH</span> gira<span className="logo-light">prêmio</span></a>
+      <a className="logo" href="/rifa-demo/"><span className="logo-icon">CH</span> gira<span className="logo-light">prêmio</span></a>
       <div className="dash-label">GESTÃO DE CAMPANHAS</div>
       <a className="dash-active" href="#overview">▦　Visão geral</a>
       <a href="#new-campaign">＋　Nova campanha</a>
@@ -118,7 +118,7 @@ export default function CampaignManager() {
       <div className="dash-bottom"><span className="avatar">CH</span><div><b>Área de gestão</b><small>Protótipo local</small></div></div>
     </aside>
     <section className="dash-main">
-      <header className="dash-top"><div><span className="eyebrow">CAMPANHAHUB · GESTÃO PROMOCIONAL</span><h1>Painel de campanhas</h1></div><a className="dash-preview" href="../">← Voltar ao site</a></header>
+      <header className="dash-top"><div><span className="eyebrow">GIRAPRÊMIO · GESTÃO PROMOCIONAL</span><h1>Painel de campanhas</h1></div><a className="dash-preview" href="/rifa-demo/">← Voltar ao site</a></header>
       <div className="demo-alert"><strong>Ambiente de demonstração.</strong> Os registros ficam somente neste navegador. Não há cadastro de participantes, cobrança, venda de números ou realização de sorteios.</div>
       {message && <div className="manager-message" role="status"><span>{message}</span><button type="button" onClick={() => setMessage("")} aria-label="Fechar aviso">×</button></div>}
       <div className="stats-grid" id="overview">
